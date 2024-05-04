@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerwolf Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Powerwolf Guessing Game</h1>
+    <p class="textfield">Which Powerwolf album is this song from? 🐺</p>
+    <div class="song"></div> 
+    <button class="btnPlay">Play</button>
+  </header>
+    <section class="right">
+      <p class="label-score">Score: <span class="score">0</span></p>
+      <p class="label-highscore">Highscore: <span class="highscore">0</span></p>
+      <p class="label-tries">Tries left: <span class="tries">3</span></p>
+    </section>
+  <main>
+    <section class="middle">
+        <input type="guess" class="guessInput">
+        <button class="btnGuess">Guess</button>
+        <p id="message"></p>
+        <img src="powerwolf-logo.png" id="cover" alt="Powerwolf Logo" class="cover" />
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+

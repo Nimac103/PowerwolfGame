@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #eee; 
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: #700000; 
+    font-size: 4rem;
+    text-align: center;
+}
+
+input[type="guess"] {
+    padding: 5px;
+    font-size: 20px; 
+    margin-top: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #700000;
+    color: #fff;
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+} 
+
+header {
+    position: relative;
+    height: 20vh;
+    border-bottom: 5px solid black; 
+    text-align: center;
+}
+
+main {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.btn:hover {
+    background-color: #490000; 
+}
+
+.middle {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cover {
+    position: absolute;
+    right: 810px;
+    top: 470px
+}
+
+.song {
+    position: relative;
+    font-size: 2rem; 
+    text-align: center;
+    top: 5rem
+}
+
+.textfield {
+    position: relative;
+    font-size: 2rem; 
+    top: 4rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btnPlay { 
+    position: absolute;
+    font-size: 34px; 
+    padding: 8px 40px;
+    right: 980px;
+    top: 100px;
+    border: 1px solid white; 
+}
+
+.btnGuess {
+    position: absolute;
+    font-size: 23px; 
+    padding: 10px 29px;
+    right: 860px;
+    top: 400px;
+    border: 1px solid white; 
+}
+
+.guessInput {
+    position: absolute;
+    right: 1005px;
+    top: 395px;
+    height: 35px; 
+}
+
+
+.right {
+    position: relative;
+    width: 52rem;
+    font-size: 2rem;
+    left: 1030px;
+    top: 185px
+}
+
+.label-score {
+    margin-bottom: 2rem;
+}
+
+.btnNext {
+    border: 1px solid white; 
+    margin-left: 15px;
+}
